@@ -1,0 +1,17 @@
+1) introduction
+2) github repository setup
+3) project templates creation
+4) project setup and requirements nstallation
+5) logging, utils and exception module
+6) project workflows
+7) all components notebook experiment
+8) all component modular code implementation
+9) training pipeline
+10) prediction pipeline and user app
+11) CI/CD deployment with docker
+
+Prerequisite
+1) Python programming- oops
+2) basic of machine learning -Regression part
+3) AWS Account
+4) Our Dedication
