@@ -15,3 +15,46 @@ Prerequisite
 2) basic of machine learning -Regression part
 3) AWS Account
 4) Our Dedication
+=============================================================================================================================
+
+
+Step 1 :- create one project folder, go inside the folder and right click and open with git bash, once do that, 
+- now here we need to clone our github repository with project for that, write command " git clone <repository path> "
+- obnce done that click enter and after that at next line write cd for change directory, to come inside project folder
+
+- then go inside the folder and open with vs code 
+
+Step 2 :- we need to create a organize folder structuer for our project.
+- now creating folder manually can cause sometime mistake, so instade of creating manually, we create project structure programatically.
+- for that we create one .py file template.py inside that file one time we create a code.
+
+#---------------------------------------- Very very important ---------------------------------------------#
+
+1) to cummit changes to git we have to write some git commant into git bash cmd 
+
+2) first open git bash from the same folder
+3) after that write " git add ." and hit enter
+4) " git commit -m "folder structure added"   we can pass message related to update, as here we created folder and commit that why we give this message
+5) " git push origin main " and hit enter and our all chenges added to github repository
+
+every time when i need to commit any changes to git i will follow the above step 
+
+=============================================================================================================================
+
+After this weneed to do the project setup and we need to create a virtual environment and for that below are the command 
+
+1) " conda create -n winequalityproj python=3.8 -y " here we can pass any name to virtual environment
+- now after that 
+
+2) " conda activate winequalityproj " if this now activate then open folder in cmd and then try it will work and venv activated
+
+3) once done that install requirements.txt file " pip install -r requirements.txt" 
+
+-------------------------------------------------------------------------------------------------------------------
+
+before requirements.txt file to install we also need to add one code in setup.py file let see that
+
+--------------------------------------------------------------------------------------------
+inside src/__init__.py we write code for logging, utils and exception
+
+1) first we created logging and import into main.py
